@@ -1,6 +1,9 @@
 import Navbar from "./(components)/navbar/navbar"
+import Imagee from './(components)/images/images'
 import Image from "next/image"
+import Imeges from "./(components)/imegesCard/imegesCard"
 import Card from "./(components)/card/card"
+
 function Home(){
 return(
   <>
@@ -43,24 +46,10 @@ return(
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
 
         <div className="row">
-            <div className="campus-col">
-                <img src="img/Campus1.png" alt=""/>
-                <div className="layer">
-                    <h3>DELHI</h3>
-                </div>
-            </div>
-            <div className="campus-col">
-                <img src="img/Campus2.png" alt=""/>
-                <div className="layer">
-                    <h3>HYDERABAD</h3>
-                </div>
-            </div>
-            <div className="campus-col">
-                <img src="img/Campus3.png" alt=""/>
-                <div className="layer">
-                    <h3>MUMBAI</h3>
-                </div>
-            </div>
+          
+            <Imeges heading="DELHI" src="img/Campus1.png" >  </Imeges>
+            <Imeges heading="HYDERABAD" src="img/Campus2.png" >  </Imeges>
+            <Imeges heading="MUMBAI" src="img/Campus3.png" >  </Imeges>
         </div>
     </section>
   </>
