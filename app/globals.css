@@ -4,11 +4,22 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+.backGroundImg{
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), 
+  url('../public/img/banner.png');
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
 
 .header {
   min-height: 100vh;
   width: 100%;
-  /* background-image: linear-gradient(#517e86c4, #949fdf1a), url(img/banner1.png); */
+  background-image: linear-gradient(#517e86c4, #949fdf1a), 
+  url(../public/img/banner1.png);
   background-position: center;
   background-size: cover;
   position: relative;
