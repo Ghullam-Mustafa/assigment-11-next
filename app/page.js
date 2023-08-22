@@ -1,6 +1,5 @@
 import Navbar from "./(components)/navbar/navbar"
-import Imagee from './(components)/images/images'
-import Image from "next/image"
+import FasilitiesCard from "./(components)/facilitiesCard/facilitiesCard"
 import Imeges from "./(components)/imegesCard/imegesCard"
 import Card from "./(components)/card/card"
 
@@ -50,6 +49,48 @@ return(
             <Imeges heading="DELHI" src="img/Campus1.png" >  </Imeges>
             <Imeges heading="HYDERABAD" src="img/Campus2.png" >  </Imeges>
             <Imeges heading="MUMBAI" src="img/Campus3.png" >  </Imeges>
+        </div>
+    </section>
+
+    <section class="facilities">
+        <div class="PageBlock">
+            <div class="verticalLine"></div>
+            <div class="Clear"></div>
+        </div>
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+           <FasilitiesCard src="img/Libary.png" heading="Best Libary" />
+           <FasilitiesCard src="img/playground.png" heading="Athletics" />
+           <FasilitiesCard src="img/food.png" heading="Tasty and Healthy Food" />
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="PageBlock">
+            <div class="verticalLine"></div>
+            <div class="Clear"></div>
+        </div>
+        <h1>What Our Student Says</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+         
+            <div class="testimonials-col">
+                <img src="img/user.png" alt="oo.."/>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi maiores in nostrum rerum voluptatem
+                        praesentium veritatis alias omnis voluptate nisi aperiam, voluptatum quibusdam itaque a
+                        deserunt. In quia repellat maxime.</p>
+                    <h3>Student Name</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+            </div>
         </div>
     </section>
   </>
